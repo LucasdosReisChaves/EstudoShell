@@ -1,0 +1,12 @@
+#!/bin/bash
+#Programa que pede o nome e o sobrenome
+clear
+echo "Programa de boas vindas ao usuario"
+echo "-----------------------------------------------"
+echo "Digite o seu preimeiro nome"
+read nome
+echo"Agora digite o seu sobrenome"
+read sobrenome
+echo"Ola,Sr(a) $nome $sobrenome.  Hoje : `date`"
+
+
